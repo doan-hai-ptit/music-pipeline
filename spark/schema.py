@@ -3,7 +3,7 @@ from pyspark.sql.types import StructType, StructField, StringType, FloatType, Ti
 MESSAGE_SCHEMA = StructType([
     StructField("song_id", StringType(), True),
     StructField("user_id", StringType(), True),
-    StructField("action", StringType(), True),
-    StructField("duration", FloatType(), True),
+    StructField("event_type", StringType(), True),
+    StructField("duration_ms", FloatType(), True),
     StructField("timestamp", StringType(), True),
 ])

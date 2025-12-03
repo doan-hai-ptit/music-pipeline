@@ -1,7 +1,11 @@
 import os
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import from_json, col
+from pyspark.sql.functions import from_json, col, count
 from pyspark.sql.types import StructType, StringType
+
+from schema import MESSAGE_SCHEMA
+from sink.to_console import write_to_console
+from sink.to_parquet import write_to_parquet
 
 jars_dir = os.path.join(os.getcwd(), "libs")
 jars = [os.path.join(jars_dir, jar) for jar in os.listdir(jars_dir) if jar.endswith(".jar")]
@@ -34,14 +38,26 @@ print("Kafka Connected OK:", df.isStreaming)
 df.printSchema()
 # df.show()
 events = df.select(
-    from_json(col("value").cast("string"), schema).alias("data")
+    from_json(col("value").cast("string"), MESSAGE_SCHEMA).alias("data")
 ).select("data.*")
 
 checkpoint_dir = "C:/spark-checkpoint/music_events"
 
-query = events.writeStream \
-    .format("console") \
-    .option("truncate", False) \
-    .start()
+events = events.filter(col("event_type") == "play")
+agg_df = events.groupBy("song_id").agg(count("*").alias("play_count"))
+# query = events.writeStream \
+#     .format("console") \
+#     .option("truncate", False) \
+#     .start()
+
+query = write_to_console(agg_df, "complete")
+
+# query = write_to_parquet(
+#     agg_df, 
+#     output_mode="update",
+#     output_path="datalake/music_events_play", 
+#     checkpoint="checkpoint/music_events_parquet", 
+#     trigger="1 minutes"
+# )
 
 query.awaitTermination()
