@@ -8,7 +8,6 @@ from sink.to_parquet import write_to_parquet
 
 spark = SparkSession.builder \
     .appName("Streaming from Kafka") \
-    .master("local[*]") \
     .config("spark.sql.shuffle.partitions", 4) \
     .getOrCreate()
 

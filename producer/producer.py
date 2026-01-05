@@ -1,7 +1,7 @@
 import time
 import json
 from kafka import KafkaProducer
-from event_generator.generate_event import generate_event
+from .event_generator.generate_event import generate_event
 
 producer = KafkaProducer(
     bootstrap_servers="localhost:9092",
