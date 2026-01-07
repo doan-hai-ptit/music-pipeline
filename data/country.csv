@@ -1,0 +1,121 @@
+country_id,country_code,country_name
+1,US,United States
+2,VN,Vietnam
+3,JP,Japan
+4,KR,South Korea
+5,CN,China
+6,FR,France
+7,DE,Germany
+8,GB,United Kingdom
+9,CA,Canada
+10,AU,Australia
+11,SG,Singapore
+12,TH,Thailand
+13,ID,Indonesia
+14,MY,Malaysia
+15,PH,Philippines
+16,IN,India
+17,BR,Brazil
+18,RU,Russia
+19,ES,Spain
+20,IT,Italy
+21,NL,Netherlands
+22,BE,Belgium
+23,CH,Switzerland
+24,AT,Austria
+25,SE,Sweden
+26,NO,Norway
+27,DK,Denmark
+28,FI,Finland
+29,PL,Poland
+30,CZ,Czech Republic
+31,SK,Slovakia
+32,HU,Hungary
+33,RO,Romania
+34,BG,Bulgaria
+35,GR,Greece
+36,PT,Portugal
+37,IE,Ireland
+38,UA,Ukraine
+39,BY,Belarus
+40,LT,Lithuania
+41,LV,Latvia
+42,EE,Estonia
+43,HR,Croatia
+44,SI,Slovenia
+45,RS,Serbia
+46,BA,Bosnia and Herzegovina
+47,ME,Montenegro
+48,AL,Albania
+49,MK,North Macedonia
+50,TR,Turkey
+51,IL,Israel
+52,SA,Saudi Arabia
+53,AE,United Arab Emirates
+54,QA,Qatar
+55,KW,Kuwait
+56,OM,Oman
+57,IR,Iran
+58,IQ,Iraq
+59,EG,Egypt
+60,MA,Morocco
+61,TN,Tunisia
+62,DZ,Algeria
+63,ZA,South Africa
+64,NG,Nigeria
+65,KE,Kenya
+66,GH,Ghana
+67,ET,Ethiopia
+68,TZ,Tanzania
+69,UG,Uganda
+70,ZW,Zimbabwe
+71,AR,Argentina
+72,CL,Chile
+73,CO,Colombia
+74,PE,Peru
+75,VE,Venezuela
+76,UY,Uruguay
+77,PY,Paraguay
+78,BO,Bolivia
+79,MX,Mexico
+80,CR,Costa Rica
+81,PA,Panama
+82,GT,Guatemala
+83,HN,Honduras
+84,SV,El Salvador
+85,CU,Cuba
+86,JM,Jamaica
+87,DO,Dominican Republic
+88,IS,Iceland
+89,LU,Luxembourg
+90,MT,Malta
+91,CY,Cyprus
+92,GE,Georgia
+93,AM,Armenia
+94,AZ,Azerbaijan
+95,KZ,Kazakhstan
+96,UZ,Uzbekistan
+97,PK,Pakistan
+98,BD,Bangladesh
+99,LK,Sri Lanka
+100,NP,Nepal
+101,MM,Myanmar
+102,KH,Cambodia
+103,LA,Laos
+104,BN,Brunei
+105,MN,Mongolia
+106,NZ,New Zealand
+107,FJ,Fiji
+108,PG,Papua New Guinea
+109,SB,Solomon Islands
+110,AF,Afghanistan
+111,SD,Sudan
+112,SS,South Sudan
+113,LY,Libya
+114,CM,Cameroon
+115,SN,Senegal
+116,CI,Ivory Coast
+117,ML,Mali
+118,BF,Burkina Faso
+119,NE,Niger
+120,MR,Mauritania

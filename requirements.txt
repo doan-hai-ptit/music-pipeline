@@ -1,2 +1,4 @@
 pyspark==3.5.7
 kafka-python==2.3.0
+dbt-core==1.11.2
+dbt-bigquery==1.11.0

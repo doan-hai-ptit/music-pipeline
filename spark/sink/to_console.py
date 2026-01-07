@@ -1,7 +1,7 @@
 # spark/sink/to_console.py
 # Helper ghi streaming DataFrame ra console
 
-def write_to_console(df, output_mode="complete", checkpoint="checkpoint/console"):
+def write_to_console(df, output_mode="append", checkpoint="checkpoint/console"):
     """
     df: Spark streaming DataFrame
     output_mode: 'append', 'complete' hoặc 'update'
