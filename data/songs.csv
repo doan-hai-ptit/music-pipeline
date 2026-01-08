@@ -1,120 +1,120 @@
 song_id,song_name,artist_id
-song_1,Lạc Trôi,artist_1
-song_2,Nếu Anh Đi,artist_2
-song_3,Bài Này Chill Phết,artist_3
-song_4,Tháng Tư Là Lời Nói Dối Của Em,artist_4
-song_5,Để Mị Nói Cho Mà Nghe,artist_5
-song_6,Shape of You,artist_6
-song_7,Blank Space,artist_7
-song_8,Believer,artist_8
-song_9,Uptown Funk,artist_9
-song_10,Hello,artist_10
-song_11,Nơi Này Có Anh,artist_1
-song_12,Chạy Ngay Đi,artist_1
-song_13,Hãy Trao Cho Anh,artist_1
-song_14,Muộn Rồi Mà Sao Còn,artist_1
-song_15,Chúng Ta Của Hiện Tại,artist_1
+1,Lạc Trôi,1
+2,Nếu Anh Đi,2
+3,Bài Này Chill Phết,3
+4,Tháng Tư Là Lời Nói Dối Của Em,4
+5,Để Mị Nói Cho Mà Nghe,5
+6,Shape of You,6
+7,Blank Space,7
+8,Believer,8
+9,Uptown Funk,9
+10,Hello,10
+11,Nơi Này Có Anh,1
+12,Chạy Ngay Đi,1
+13,Hãy Trao Cho Anh,1
+14,Muộn Rồi Mà Sao Còn,1
+15,Chúng Ta Của Hiện Tại,1
 
-song_16,Ước Gì,artist_2
-song_17,Người Hãy Quên Em Đi,artist_2
-song_18,Đừng Hỏi Em,artist_2
+16,Ước Gì,2
+17,Người Hãy Quên Em Đi,2
+18,Đừng Hỏi Em,2
 
-song_19,Đi Về Nhà,artist_3
-song_20,Trốn Tìm,artist_3
-song_21,Mười Năm,artist_3
+19,Đi Về Nhà,3
+20,Trốn Tìm,3
+21,Mười Năm,3
 
-song_22,Nước Ngoài,artist_4
-song_23,Rơi,artist_4
+22,Nước Ngoài,4
+23,Rơi,4
 
-song_24,Bánh Trôi Nước,artist_5
-song_25,Gieo Quẻ,artist_5
-song_26,See Tình,artist_5
+24,Bánh Trôi Nước,5
+25,Gieo Quẻ,5
+26,See Tình,5
 
-song_27,Waiting For You,artist_11
-song_28,Em Đã Thương Người Ta Hơn Anh,artist_11
+27,Waiting For You,11
+28,Em Đã Thương Người Ta Hơn Anh,11
 
-song_29,Gọi Tên Em Trong Đêm,artist_12
-song_30,Anh Sẽ Về Sớm Thôi,artist_12
+29,Gọi Tên Em Trong Đêm,12
+30,Anh Sẽ Về Sớm Thôi,12
 
-song_31,Chạm Đáy Nỗi Đau,artist_13
-song_32,Em Không Sai Chúng Ta Sai,artist_13
+31,Chạm Đáy Nỗi Đau,13
+32,Em Không Sai Chúng Ta Sai,13
 
-song_33,Hết Thương Cạn Nhớ,artist_14
-song_34,Hơn Cả Yêu,artist_14
+33,Hết Thương Cạn Nhớ,14
+34,Hơn Cả Yêu,14
 
-song_35,Trên Tình Bạn Dưới Tình Yêu,artist_15
-song_36,Có Em Chờ,artist_15
+35,Trên Tình Bạn Dưới Tình Yêu,15
+36,Có Em Chờ,15
 
-song_37,Anh Nhà Ở Đâu Thế,artist_16
-song_38,Sao Anh Chưa Về Nhà,artist_16
+37,Anh Nhà Ở Đâu Thế,16
+38,Sao Anh Chưa Về Nhà,16
 
-song_39,Rời Bỏ,artist_17
-song_40,Không Thể Cùng Nhau Suốt Kiếp,artist_17
+39,Rời Bỏ,17
+40,Không Thể Cùng Nhau Suốt Kiếp,17
 
-song_41,Anh Ơi Ở Lại,artist_18
-song_42,Talk To Me,artist_18
+41,Anh Ơi Ở Lại,18
+42,Talk To Me,18
 
-song_43,Bùa Yêu,artist_19
-song_44,Đi Đu Đưa Đi,artist_19
+43,Bùa Yêu,19
+44,Đi Đu Đưa Đi,19
 
-song_45,Có Chàng Trai Viết Lên Cây,artist_20
-song_46,Từ Đó,artist_20
+45,Có Chàng Trai Viết Lên Cây,20
+46,Từ Đó,20
 
-song_47,Tình Yêu Bốn Mùa,artist_21
-song_48,Người Ấy,artist_21
+47,Tình Yêu Bốn Mùa,21
+48,Người Ấy,21
 
-song_49,Phía Sau Một Cô Gái,artist_22
-song_50,Đi Để Trở Về,artist_22
+49,Phía Sau Một Cô Gái,22
+50,Đi Để Trở Về,22
 
-song_51,Lạ Lùng,artist_23
-song_52,Bước Qua Nhau,artist_23
+51,Lạ Lùng,23
+52,Bước Qua Nhau,23
 
-song_53,Em Dạo Này,artist_24
-song_54,Có Ai Ở Đây Không,artist_24
+53,Em Dạo Này,24
+54,Có Ai Ở Đây Không,24
 
-song_55,Người Em Yêu,artist_25
-song_56,Ngày Ấy Và Sau Này,artist_25
+55,Người Em Yêu,25
+56,Ngày Ấy Và Sau Này,25
 
-song_57,Hồng Nhan,artist_26
-song_58,Bạc Phận,artist_26
+57,Hồng Nhan,26
+58,Bạc Phận,26
 
-song_59,Sóng Gió,artist_27
-song_60,Em Gì Ơi,artist_27
+59,Sóng Gió,27
+60,Em Gì Ơi,27
 
-song_61,Mặt Trời Của Em,artist_28
-song_62,Thằng Điên,artist_28
+61,Mặt Trời Của Em,28
+62,Thằng Điên,28
 
-song_63,Rồi Người Thương Cũng Hóa Người Dưng,artist_29
-song_64,Em Ngày Xưa Khác Rồi,artist_29
+63,Rồi Người Thương Cũng Hóa Người Dưng,29
+64,Em Ngày Xưa Khác Rồi,29
 
-song_65,Giàu Vì Bạn Sang Vì Vợ,artist_35
+65,Giàu Vì Bạn Sang Vì Vợ,35
 
-song_66,Sáng Mắt Chưa,artist_31
-song_67,Bốn Chữ Lắm,artist_31
+66,Sáng Mắt Chưa,31
+67,Bốn Chữ Lắm,31
 
-song_68,Yêu Là Tha Thu,artist_32
-song_69,Anh Đã Quen Với Cô Đơn,artist_32
+68,Yêu Là Tha Thu,32
+69,Anh Đã Quen Với Cô Đơn,32
 
-song_70,Người Lạ Ơi,artist_33
-song_71,Anh Không Đòi Quà,artist_33
+70,Người Lạ Ơi,33
+71,Anh Không Đòi Quà,33
 
-song_72,Đời,artist_34
-song_73,N-Sao,artist_34
+72,Đời,34
+73,N-Sao,34
 
-song_74,Forever Alone,artist_36
-song_75,Đã Lỡ Yêu Em Nhiều,artist_36
+74,Forever Alone,36
+75,Đã Lỡ Yêu Em Nhiều,36
 
-song_76,Mượn Rượu Tỏ Tình,artist_37
-song_77,Tình Yêu Màu Hồng,artist_37
+76,Mượn Rượu Tỏ Tình,37
+77,Tình Yêu Màu Hồng,37
 
-song_78,Ex Hate Me,artist_38
-song_79,Tình Đắng Như Ly Cà Phê,artist_39
+78,Ex Hate Me,38
+79,Tình Đắng Như Ly Cà Phê,39
 
-song_80,Thích Em Hơi Nhiều,artist_40
-song_81,Miền Bình Yên,artist_40
+80,Thích Em Hơi Nhiều,40
+81,Miền Bình Yên,40
 
-song_82,Cơn Mưa Ngang Qua,artist_1
-song_83,Em Của Ngày Hôm Qua,artist_1
-song_84,Âm Thầm Bên Em,artist_1
-song_85,Chúng Ta Không Thuộc Về Nhau,artist_1
-song_86,Như Ngày Hôm Qua,artist_1
+82,Cơn Mưa Ngang Qua,1
+83,Em Của Ngày Hôm Qua,1
+84,Âm Thầm Bên Em,1
+85,Chúng Ta Không Thuộc Về Nhau,1
+86,Như Ngày Hôm Qua,1

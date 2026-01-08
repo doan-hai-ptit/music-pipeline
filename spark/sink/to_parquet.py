@@ -13,11 +13,10 @@ def write_to_parquet(
         .format("parquet") \
         .option("path", output_path) \
         .option("checkpointLocation", checkpoint) \
-        .option("mergeSchema", "true") \
         .trigger(processingTime=trigger)
 
     # Partition theo date
     if partition_by:
         writer = writer.partitionBy(*partition_by)
-
+    print("Update thành công")
     return writer.start()

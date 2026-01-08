@@ -1,0 +1,48 @@
+
+version: 2
+
+models:
+  - name: top_songs
+    description: "Top 10 bài hát được nghe nhiều nhất"
+    columns:
+      - name: song_id
+        description: "ID của bài hát"
+        tests:
+          - not_null
+          - unique
+      - name: song_name
+        description: "Tên bài hát"
+        tests:
+          - not_null
+      - name: played_count
+        description: "Tổng số lượt nghe của bài hát"
+
+  - name: top_artists
+    description: "Top 10 ca sĩ có nhiều lượt nghe nhất"
+    columns:
+      - name: artist_id
+        description: "ID của ca sĩ"
+        tests:
+          - not_null
+          - unique
+      - name: artist_name
+        description: "Tên ca sĩ"
+        tests:
+          - not_null
+      - name: played_count
+        description: "Tổng số lượt nghe tất cả bài hát của ca sĩ"
+
+  - name: top_countries
+    description: "Top 10 quốc gia có lượt nghe nhiều nhất"
+    columns:
+      - name: country_id
+        description: "ID quốc gia"
+        tests:
+          - not_null
+          - unique
+      - name: country_name
+        description: "Tên quốc gia"
+        tests:
+          - not_null
+      - name: played_count
+        description: "Tổng số lượt nghe từ quốc gia"
