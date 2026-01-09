@@ -4,6 +4,7 @@ checkpoint/
 output/
 venv/
 keys/
+logs/
 .env
 tempCodeRunnerFile.py
 datalake
