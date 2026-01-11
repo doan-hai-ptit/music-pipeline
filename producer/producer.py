@@ -13,5 +13,5 @@ print("Producer connected to Kafka. Streaming events...")
 while True:
     event = generate_event()
     producer.send("music_events", event)
-    print("[SENT]", event)
+    # print("[SENT]", event)
     time.sleep(0.5)

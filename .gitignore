@@ -8,3 +8,4 @@ logs/
 .env
 tempCodeRunnerFile.py
 datalake
+.user.yml
