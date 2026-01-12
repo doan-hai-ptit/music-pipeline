@@ -4,7 +4,7 @@ music_dbt:
       dataset: music_datalake
       job_execution_timeout_seconds: 300
       job_retries: 1
-      keyfile: /opt/airflow/keys/music-pipline-165b5ccbdee5.json
+      keyfile: C:\Code\Python\music-pipeline\keys\music-pipline-165b5ccbdee5.json
       location: asia-southeast1
       method: service-account
       priority: interactive

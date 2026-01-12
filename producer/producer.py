@@ -14,4 +14,4 @@ while True:
     event = generate_event()
     producer.send("music_events", event)
     # print("[SENT]", event)
-    time.sleep(0.5)
+    time.sleep(0.1)

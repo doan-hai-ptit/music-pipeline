@@ -1,14 +1,16 @@
 import os
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import from_json, col, to_timestamp, to_date
-from schema import MESSAGE_SCHEMA
+from spark.streaming.schema import MESSAGE_SCHEMA
 from sink.to_console import write_to_console
 from sink.to_parquet import write_to_parquet
 
 
 GCS_BUCKET = os.getenv("GCS_BUCKET", "music-pipeline")
-RAW_PATH = f"gs://{GCS_BUCKET}/raw/music_events"
+RAW_PATH = f"gs://{GCS_BUCKET}/data/status=raw"
 CHECKPOINT_PATH = f"gs://{GCS_BUCKET}/checkpoint/raw/music_events"
+KEY_PATH= "C:\\Code\\Python\\music-pipeline\\keys\\music-pipline-165b5ccbdee5.json"
+
 
 spark = SparkSession.builder \
     .appName("Streaming from Kafka") \
@@ -16,7 +18,7 @@ spark = SparkSession.builder \
     .config("spark.hadoop.fs.gs.impl", "com.google.cloud.hadoop.fs.gcs.GoogleHadoopFileSystem")\
     .config("spark.hadoop.fs.AbstractFileSystem.gs.impl", "com.google.cloud.hadoop.fs.gcs.GoogleHadoopFS")\
     .config("spark.hadoop.google.cloud.auth.service.account.enable", "true")\
-    .config("spark.hadoop.google.cloud.auth.service.account.json.keyfile", "C:\\Code\\Python\\music-pipeline\\keys\\music-pipline-165b5ccbdee5.json")\
+    .config("spark.hadoop.google.cloud.auth.service.account.json.keyfile", KEY_PATH)\
     .getOrCreate()
 
 spark.sparkContext.setLogLevel("WARN")
