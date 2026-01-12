@@ -1,7 +1,7 @@
 import os
 from pyspark.sql import SparkSession
 from pyspark.sql.functions import from_json, col, to_timestamp, to_date
-from spark.streaming.schema import MESSAGE_SCHEMA
+from schema import MESSAGE_SCHEMA
 from sink.to_console import write_to_console
 from sink.to_parquet import write_to_parquet
 

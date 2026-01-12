@@ -5,9 +5,9 @@ from datetime import date, timedelta, datetime
 import uuid
 
 # Cấu hình
-PROJECT_ID = "music-pipline"
-REGION = "asia-southeast1"
-BUCKET_NAME = "music-datalake-bucket"
+PROJECT_ID = "{{ var.value.project_id }}"
+REGION = "{{ var.value.region_name }}"
+BUCKET_NAME = "{{ var.value.bucket_name }}"
 
 yesterday = (date.today() - timedelta(days=1)).isoformat()
 
