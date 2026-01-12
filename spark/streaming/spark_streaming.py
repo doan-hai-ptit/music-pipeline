@@ -7,9 +7,10 @@ from sink.to_parquet import write_to_parquet
 
 
 GCS_BUCKET = os.getenv("GCS_BUCKET", "music-pipeline")
+# KEY_PATH= os.getenv("GCP_KEY_PATH", "keys/key.json")
+KEY_PATH= os.getenv("GCP_KEY_PATH", "keys/key.json")
 RAW_PATH = f"gs://{GCS_BUCKET}/data/status=raw"
 CHECKPOINT_PATH = f"gs://{GCS_BUCKET}/checkpoint/raw/music_events"
-KEY_PATH= "C:\\Code\\Python\\music-pipeline\\keys\\music-pipline-165b5ccbdee5.json"
 
 
 spark = SparkSession.builder \

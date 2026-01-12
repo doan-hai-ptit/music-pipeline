@@ -9,14 +9,19 @@ default_args = {
 }
 
 with DAG(
-    dag_id="our_first_dag",
+    dag_id="dbt_run",
     default_args=default_args,
-    description="this is our first dag",
+    description="dbt run",
     start_date=datetime(2026, 1, 8),
     schedule="@daily"
 ) as dag:
 
     task1 = BashOperator(
-        task_id='first_task',
-        bash_command='echo Hello World!'
+        task_id='running_dbt',
+        bash_command="""
+            cd /opt/airflow/dbt && \
+            dbt clean && \
+            dbt run --no-partial-parse
+            """
     )
+    task1
