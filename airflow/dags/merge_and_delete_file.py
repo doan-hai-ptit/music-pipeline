@@ -4,7 +4,6 @@ from airflow.providers.google.cloud.operators.gcs import GCSDeleteObjectsOperato
 from datetime import date, timedelta, datetime
 import uuid
 
-# Cấu hình
 PROJECT_ID = "{{ var.value.project_id }}"
 REGION = "{{ var.value.region_name }}"
 BUCKET_NAME = "{{ var.value.bucket_name }}"
