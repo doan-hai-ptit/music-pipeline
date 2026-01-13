@@ -107,6 +107,10 @@ GCP_KEY_PATH=/path/to/service_account.json
 
 ---
 ### Chạy Kafka
+```bash
+cd kafka
+docker-compose up -d
+```
 ---
 
 ### Chạy Airflow bằng Docker
@@ -118,6 +122,7 @@ docker-compose up -d
 * Kafka: `localhost:9092`
 * Airflow UI: [http://localhost:8080](http://localhost:8080)
 * Thêm các biến bucket_name, project_id, region_name của bucket trong GCS trong Airflow UI
+* Tạo foler scripts/ trên GCS và đưa file spark/batch-merge/dataproc_merge_file.py vào đó
 ---
 ### Chạy Producer
 ```bash

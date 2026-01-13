@@ -9,3 +9,4 @@ logs/
 tempCodeRunnerFile.py
 datalake
 .user.yml
+kafka_data/
