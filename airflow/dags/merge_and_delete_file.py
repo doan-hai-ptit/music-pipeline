@@ -46,10 +46,11 @@ with DAG(
         batch=BATCH_CONFIG,
     )
 
-    delete_old_raw = GCSDeleteObjectsOperator(
-        task_id="cleanup_raw_data",
-        bucket_name=BUCKET_NAME,
-        prefix=f"gs://{BUCKET_NAME}/data/status=raw/event_date={yesterday}/",
-    )
+    # delete_old_raw = GCSDeleteObjectsOperator(
+    #     task_id="cleanup_raw_data",
+    #     bucket_name=BUCKET_NAME,
+    #     prefix=f"gs://{BUCKET_NAME}/data/status=raw/event_date={yesterday}/",
+    # )
+    run_merge_job 
 
-    run_merge_job >> delete_old_raw
+    # run_merge_job >> delete_old_raw

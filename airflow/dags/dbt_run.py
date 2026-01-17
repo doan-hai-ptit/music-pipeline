@@ -19,9 +19,7 @@ with DAG(
     task1 = BashOperator(
         task_id='running_dbt',
         bash_command="""
-            cd /opt/airflow/dbt && \
-            dbt clean && \
-            dbt run --no-partial-parse
+            cd /opt/airflow/dbt && dbt run
             """
     )
     task1
