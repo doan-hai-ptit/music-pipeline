@@ -6,7 +6,7 @@ import uuid
 
 PROJECT_ID = "{{ var.value.project_id }}"
 REGION = "{{ var.value.region_name }}"
-BUCKET_NAME = "{{ var.value.bucket_name }}"
+BUCKET_NAME = "{{ var.value.bucket_name}}"
 
 yesterday = (date.today() - timedelta(days=1)).isoformat()
 
