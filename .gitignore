@@ -10,3 +10,4 @@ tempCodeRunnerFile.py
 datalake
 .user.yml
 kafka_data/
+airflow.cfg
