@@ -132,7 +132,7 @@ python -m producer.producer
 ### Chạy Spark_streaming
 
 ```bash
-spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.7 --jars "C:\Code\Python\music-pipeline\spark\jars\gcs-connector-hadoop3-latest.jar" spark\streaming\spark_streaming.py
+spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.7 --jars "music-pipeline\spark\jars\gcs-connector-hadoop3-latest.jar" spark\streaming\spark_streaming.py
 ```
 
 ---
