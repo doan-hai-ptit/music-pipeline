@@ -2,7 +2,7 @@
 
 ## Tổng quan
 
-**Music Data Pipeline** là một project mô phỏng hệ thống xử lý dữ liệu âm nhạc theo thời gian (batch + near-real-time), được thiết kế theo hướng **Data Engineering**.
+**Music Data Pipeline** là một project mô phỏng hệ thống xử lý dữ liệu âm nhạc theo thời gian (batch + near-real-time).
 
 Pipeline này xử lý dữ liệu sự kiện nghe nhạc thông qua các bước:
 
@@ -89,7 +89,7 @@ BigQuery
 ### Yêu cầu
 
 * Docker và Docker Compose
-* Python 3.9+ (cho local development)
+* Python 3.9+
 * Tài khoản Google Cloud
 * Service Account key (quyền BigQuery và GCS)
 * Kafka
